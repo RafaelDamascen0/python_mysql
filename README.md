@@ -26,4 +26,3 @@ mkdir dadosclientes
 
 ```shell 
 docker run --name srv-mysql -v ~/dadosclientes:/var/lib/mysql -p 3784:3306 -e MYSQL_ROOT_PASSWORD-SENAC@123 -d mysql
-```
