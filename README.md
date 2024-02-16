@@ -27,7 +27,7 @@ mkdir dadosclientes
 ```shell 
 docker run --name srv-mysql -v ~/dadosclientes:/var/lib/mysql -p 3784:3306 -e MYSQL_ROOT_PASSWORD-SENAC@123 -d mysql
 
-```
+```python
 # Importando a a biblioteca de conexão com o banco 
 # de dados mysql
  
@@ -68,4 +68,4 @@ for c in cursor:
     print(f"Nome do cliente: {c [1]}")
     print(f"Email: {c [2]}")
 
-   
+   ```
